@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Меню</string>
+    <string-array name="data">
+        <item>Заработанные страховые премии - нетто-перестрахование</item>
+        <item>Состоявшиеся убытки - нетто-перестрахование</item>
+        <item>Расходы по ведению страховых операций</item>
+        <item>Отчисления от страховых премий</item>
+        <item>Прочие доходы по страхованию иному, чем страхование жизни</item>
+        <item>Прочие расходы по страхованию иному, чем страхование жизни</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

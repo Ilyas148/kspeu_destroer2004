@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:text="Компания:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "2">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:text="Год:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "2">
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="Раздел I: Страховая деятельность">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="Подраздел 1: Страхование жизни">
+        </TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Заработанные страховые премии - нетто-перестрахование, в том числе:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Выплаты - нетто-перестрахование, в том числе:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Изменение резервов и обязательств - нетто-перестрахование, в том числе:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Расходы по ведению страховых операций - нетто-перестрахование, в том числе:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Прочие доходы по страхованию жизни:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Прочие расходы по страхованию жизни:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:text="Подраздел 2: Страхование иное, чем страхование жизни">
+    </TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Заработанные страховые премии - нетто-перестрахование, в том числе:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Состоявшиеся убытки - нетто-перестрахование, в том числе:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Расходы по ведению страховых операций - нетто-перестрахование, в том числе:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Отчисления от страховых премий:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Прочие доходы по страхованию иному, чем страхованию жизни:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="0pt"
+                android:layout_height="match_parent"
+                android:layout_weight = "1"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:text="Прочие расходы по страхованию иному, чем страхованию жизни:">
+            </TextView>
+
+            <EditText
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1">
+            </EditText>
+        </TableRow>
+
+
+    </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="Раздел II: Инвестиционная деятельность">
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text16"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Проценнтные доходы:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text17"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Доходы за вычетом расходов (расходы за вычетом доходов) по операциям с финансовыми инструментами, оцениваемыми по справедливой стоимости, изменение которой отражается в составе прибыли или убытка, кроме финансовых обязательств, классифицируемых как оцениваемые по справедливой стоимости, изменения которой отражаются в составе прибыли или убытка, при первоначальном признании:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text18"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Доходы за вычетом расходов (расходы за вычетом доходов) по операциям с финансовыми активами, имеющимися в наличии для продажи:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text19"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Доходы за вычетом расходов (расходы за вычетом доходов) от операций с инвестиционным имуществом:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text20"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Доходы за вычетом расходов (расходы за вычетом доходов) по операциям с иностранной валютой:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text21"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Прочие инвестиционные доходы за вычетом расходов (расходы за вычетом доходов):">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="Раздел III: Прочие операционные доходы и расходы">
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text23"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Общие и административные расходы:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text24"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Процентные расходы:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text241"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Доходы за вычетом расходов (расходы за вычетом доходов) от операций с финансовыми обязательствами, классифицированными как оцениваемые по справедливой стоимости, изменения которой отражаются в составе прибыли или убытка, при первоначальном признании:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button241"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text25"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Доходы по операциям в сфере обязательного медицинского страхования:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text26"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Расходы по операциям в сфере обязательного медицинского страхования:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text27"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Прочие доходы:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text28"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Прочие расходы:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text30"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Прибыль (убыток) до налогообложения:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button30"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text31"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Доход (расход) по налогу на прибыль:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text32"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Прибыль (убыток) от прекращенной деятельности, переоценки и выбытия активов (выбывающих групп), классифицированных как предназначенные для продажи, составляющих прекращенную деятельность, после налогооблажения:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text33"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Прибыль (убыток) после налогообложения:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="Раздел IV: Прочий совокупный доход">
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text34"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Прочий совокупный доход (расход), не подлежащий переклассификации в состав прибыли или убытка в последующих периодах:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button34"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/text43"
+                    android:layout_width="0pt"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1"
+                    android:gravity="center_vertical"
+                    android:textSize="13sp"
+                    android:text="Прочий совокупный доход (расход), подлежащий переклассификации в состав прибыли или убытка в последующих:">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/button43"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight = "1">
+                </EditText>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Сохранить">
+        </Button>
+    </LinearLayout>
+</ScrollView>
